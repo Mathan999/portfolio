@@ -54,15 +54,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="text-gray-400">
                 <span className="block">Email:</span>
-                <a href="mailto:john.doe@example.com" className="hover:text-blue-400 transition-colors">john.doe@example.com</a>
+                <a href="mailto:john.doe@example.com" className="hover:text-blue-400 transition-colors">itsmemathankumar@gmail.com</a>
               </li>
               <li className="text-gray-400">
                 <span className="block">Phone:</span>
-                <a href="tel:+15551234567" className="hover:text-blue-400 transition-colors">+1 (555) 123-4567</a>
+                <a href="tel:+15551234567" className="hover:text-blue-400 transition-colors">+91 8778915065</a>
               </li>
               <li className="text-gray-400">
                 <span className="block">Location:</span>
-                <span>San Francisco, California, USA</span>
+                <span>Coimbatore</span>
               </li>
             </ul>
           </div>
@@ -70,12 +70,12 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} JohnDev. All rights reserved.
+            &copy; {currentYear} Mathan Kumar. All rights reserved.
           </p>
           <div className="flex items-center text-gray-500 text-sm">
             <p>Made with</p>
             <Heart size={14} className="mx-1 text-red-500" />
-            <p>by John Doe</p>
+            <p>by Mathan Kumar</p>
           </div>
         </div>
       </div>
